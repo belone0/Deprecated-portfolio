@@ -47,3 +47,6 @@ a {
     backdrop-filter: blur(10.8px);
     -webkit-backdrop-filter: blur(10.8px);
 }
+svg{
+    fill:  #e2e8f0;
+}
