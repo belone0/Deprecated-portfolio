@@ -15,8 +15,8 @@
             <ul class="navbar-nav me-auto" alt=""><h3 class="fw-bolder">joao belone</h3></ul>
             <!-- Right Side Of Navbar -->
             <ul class="nav2"><a href="/" class="fw-bolder">About</a></ul>
-            <ul class="nav2"><a href="/" class="fw-bolder">Tech</a></ul>
             <ul class="nav2"><a href="/" class="fw-bolder">Projects</a></ul>
+            <ul class="nav2"><a href="/" class="fw-bolder">Contact</a></ul>
         </div>
     </div>
 </nav>
