@@ -50,3 +50,12 @@ a {
 svg{
     fill:  #e2e8f0;
 }
+
+p{
+    color: #84a3b8;
+    font-size: 16.5px;
+}
+
+.fit{
+    width: fit-content
+}
