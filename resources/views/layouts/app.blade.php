@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
-    @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/css/app.css',])
+    @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/css/app.css','resources/js/vanilla-tilt.js'])
 </head>
 <body class="layout-body">
 <nav class="navbar navbar-expand-md mt-2">

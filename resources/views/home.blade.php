@@ -29,7 +29,13 @@
             </div>
             <x-about-me/>
         </div>
-        <x-tech-stack/>
-{{--     @todo card animation    --}}
+        <div class="row">
+            <div class="col-12 col-lg-5">
+                <x-tech-stack/>
+            </div>
+            <div class="col-12 col-lg-7">
+                <x-projects/>
+            </div>
+        </div>
     </div>
 @endsection
