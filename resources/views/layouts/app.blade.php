@@ -20,9 +20,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
-                <li class="nav2"><a href="/" class="fw-bolder">About</a></li>
-                <li class="nav2"><a href="/" class="fw-bolder">Projects</a></li>
-                <li class="nav2"><a href="/" class="fw-bolder">Contact</a></li>
+                <li class="nav2"><a href="#" class="fw-bolder">About</a></li>
+                <li class="nav2"><a href="#projects" class="fw-bolder">Projects</a></li>
+                <li class="nav2"><a href="#contact" class="fw-bolder">Contact</a></li>
             </ul>
         </div>
     </div>

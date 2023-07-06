@@ -1,9 +1,10 @@
 @php
     $height = '40px';
 @endphp
-<div class="stack-div px-3 py-5 transparent-card row justify-content-center mt-5 mx-1" data-tilt data-tilt-glare-prerender="false" {{-- data-tilt-glare --}} data-tilt-max="2" data-tilt-max-glare="0.2">
+<div class="stack-div px-3 py-5 transparent-card row justify-content-center mt-5 mx-1" data-tilt
+     data-tilt-glare-prerender="false" {{-- data-tilt-glare  data-tilt-max-glare="0.2" --}} data-tilt-max="2">
     <div class="row justify-content-center mb-4">
-        <h2 class="col-12 fit display-6">Stack</h2>
+        <h1 class="col-12 fit ">Stack</h1>
     </div>
     <div class="row justify-content-evenly my-1">
         <div class="fit col-2 d-flex flex-column align-items-center">

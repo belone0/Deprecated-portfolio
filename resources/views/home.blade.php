@@ -28,6 +28,7 @@
                 </div>
             </div>
             <x-about-me/>
+{{--            <hr class="mt-5">--}}
         </div>
         <div class="row">
             <div class="col-12 col-lg-5">
@@ -37,5 +38,7 @@
                 <x-projects/>
             </div>
         </div>
+{{--        <hr>--}}
+        <x-contact/>
     </div>
 @endsection
