@@ -1,4 +1,4 @@
-<div class="col-xl-6 col-12 text-section p-4 p-lg-0">
+<div class="col-lg-6 col-12 text-section p-4 p-lg-0">
     <p>
         Hi! I'm João. Ever since I was a child, I always liked technology, playing video games and fiddling
         with the terminals, which made

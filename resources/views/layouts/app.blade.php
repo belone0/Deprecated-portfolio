@@ -8,7 +8,7 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/css/app.css','resources/js/vanilla-tilt.js'])
 </head>
 <body class="layout-body">
-<nav class="navbar navbar-expand-md mt-2">
+<nav id="main-nav" class="navbar navbar-expand-md mt-2">
     <div class="container">
         <ul class="navbar-nav me-auto" alt=""><h3 class="fw-bolder">joao belone</h3></ul>
         <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

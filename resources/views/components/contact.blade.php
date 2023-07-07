@@ -10,7 +10,7 @@
             <div class="row mb-4">
                 <div class="col-12 col-lg-6 mb-4">
                     <div class="form-group">
-                        <input name=" name"class="name_and_email InputStyle" placeholder="Tell me your name!" type="text">
+                            <input name=" name" class="  name_and_email InputStyle" placeholder="Tell me your name!" type="text">
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">

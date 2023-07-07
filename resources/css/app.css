@@ -29,9 +29,6 @@ a {
     margin-left: 60px;
     margin-right: 60px;
 }
-.icon {
-    max-height: 30px;
-}
 .transparent-card {
     border: 1px solid rgba(0, 0, 0, 0);
 }
@@ -60,6 +57,13 @@ p {
 .transparent-card:hover .experience {
     color: #4ed4d5;
 }
+
+@media(max-width: 800px){
+    #main-nav{
+        display: none !important;
+    }
+}
+
 /*stolen email form css start*/
 
 .bg{
@@ -135,21 +139,17 @@ textarea, input, input:focus{
         font-size: 20px;
     }
 }
-
-/*para pc*/
-@media (min-width: 1400px){
-    .name_and_email{
-        font-family:Roboto, sans-serif;
+@media (min-width: 1400px) {
+    .name_and_email {
+        font-family: Roboto, sans-serif;
         width: 560px;
     }
-    .message{
-        font-family:Roboto, sans-serif;
-        width:1140px;
+
+    .message {
+        font-family: Roboto, sans-serif;
+        width: 1140px;
     }
-
 }
-
-/*pc menor*/
 @media (max-width: 1400px){
     .name_and_email{
         font-family:Roboto, sans-serif;
@@ -160,7 +160,6 @@ textarea, input, input:focus{
         width:960px;
     }
 }
-/*pc menor ainda*/
 @media (max-width: 1200px){
     .name_and_email{
         font-family:Roboto, sans-serif;
@@ -171,8 +170,7 @@ textarea, input, input:focus{
         width: 777px;
     }
 }
-
-@media (max-width: 900px){
+@media (max-width: 990px){
     .name_and_email {
         font-family:Roboto, sans-serif;
         width: 540px;
@@ -180,6 +178,16 @@ textarea, input, input:focus{
     .message {
         font-family:Roboto, sans-serif;
         width: 540px;
+    }
+}
+@media (max-width: 770px){
+    .name_and_email {
+        font-family:Roboto, sans-serif;
+        width: 350px;
+    }
+    .message {
+        font-family:Roboto, sans-serif;
+        width: 350px;
     }
 }
 @media (max-width: 500px){
@@ -192,10 +200,14 @@ textarea, input, input:focus{
         width: 250px;
     }
 }
-
-/*stolen email form css end*/
-
-
-
-
+@media (max-width: 400px){
+    .name_and_email {
+        font-family:Roboto, sans-serif;
+        width: 200px;
+    }
+    .message {
+        font-family:Roboto, sans-serif;
+        width: 200px;
+    }
+}
 
