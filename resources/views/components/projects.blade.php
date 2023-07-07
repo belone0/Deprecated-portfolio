@@ -1,4 +1,4 @@
-<div id="projects" class="project-div px-3 row justify-content-center mx-1">
+<div class="project-div px-3 row justify-content-center mx-1">
     <div class="row justify-content-center mb-4">
         <h2 class="col-12 fit ">Projects / Experience</h2>
     </div>
