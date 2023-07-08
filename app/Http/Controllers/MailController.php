@@ -18,17 +18,19 @@ class MailController extends Controller
     {
         $data = $request->validate([
             'name' => 'string | required',
-            'email' => 'email | required',
+            'email' => 'string | required',
             'message' => 'string | required',
         ]);
 
         $mailData = [
-            'title' => 'PORTFOLIO MESSAGE! ',
-            'body' => 'nome: ' . $data['name'] . ' email: ' . $data['email'] . ' message: ' . $data['message']
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'message' => $data['message']
         ];
 
-        Mail::to('haleniw977@iturchia.com')->send(new EmailContact($mailData));
+        Mail::to('yawole4346@lukaat.com')->send(new EmailContact($mailData));
 
-        return view('home');
+        //@todo notification
+
     }
 }
