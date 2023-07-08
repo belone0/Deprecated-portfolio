@@ -41,9 +41,8 @@
             <x-contact/>
         </div>
     </div>
-{{--    maybe footer?--}}
+    {{--    maybe footer?--}}
     @push('js')
         <script src="scripts/nav-scroll.js"></script>
     @endpush
-
 @endsection

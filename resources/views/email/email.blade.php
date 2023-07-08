@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <body>
-<p>Name:{{$mailData['name']}}</p>
-<p>Email:{{$mailData['email']}}</p>
+<p>Name: {{$mailData['name']}}</p>
+<p>Email: {{$mailData['email']}}</p>
 <p>Message: {{$mailData['message']}}</p>
 </body>
 </html>

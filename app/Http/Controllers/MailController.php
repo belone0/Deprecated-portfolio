@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\EmailRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailContact;
+use Illuminate\Support\Facades\Redirect;
 
 class MailController extends Controller
 {
@@ -28,9 +28,8 @@ class MailController extends Controller
             'message' => $data['message']
         ];
 
-        Mail::to('yawole4346@lukaat.com')->send(new EmailContact($mailData));
+        Mail::to('portifoliobelone@gmail.com')->send(new EmailContact($mailData));
 
-        //@todo notification
-
+        return view('email.email-sent');
     }
 }

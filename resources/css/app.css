@@ -31,10 +31,7 @@ html{
 
 
 .layout-body {
-    /*filter: contrast(170%) brightness(1000%);*/
-    background: radial-gradient(circle, rgba(17, 32, 68, 1) 0%, rgba(15, 23, 42, 1) 61%), url(https://grainy-gradients.vercel.app/noise.svg);
-    /*background: rgb(17, 32, 68);*/
-    /*background: radial-gradient(circle, rgba(17, 32, 68, 1) 0%, rgba(15, 23, 42, 1) 61%), url(https://grainy-gradients.vercel.app/noise.svg);*/
+    background: radial-gradient(circle, rgba(17, 32, 68, 1) 0%, rgba(15, 23, 42, 1) 61%) !important;
     /*background: rgb(17,32,68);*/
     /*background: radial-gradient(circle, rgba(17,32,68,1) 0%, rgba(15,23,42,1) 61%);*/
 }
