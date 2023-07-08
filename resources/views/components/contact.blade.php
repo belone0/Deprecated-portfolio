@@ -6,11 +6,12 @@
         <p class="fs-4 mt-2 mb-5 d-flex justify-content-center">Got a question, proposal or just want to say hello? Go
             ahead!
         </p>
-        <form class="needs-validation" novalidate>
+        <form action="{{route('send-mail.store')}}" method="POST" class="needs-validation" novalidate>
+            @csrf
             <div class="row mb-4">
                 <div class="col-12 col-lg-6 mb-4">
                     <div class="form-group">
-                        <input id="validationCustom01" name="name" class="form-control  name_and_email InputStyle"
+                        <input name="name" id="validationCustom01" class="form-control  name_and_email InputStyle"
                                placeholder="Tell me your name!"
                                type="text" required>
                         <div class="invalid-feedback">
@@ -20,7 +21,7 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="form-group">
-                        <input id="validationCustom02" class="form-control name_and_email InputStyle" placeholder="What's your email, so I can respond to you?
+                        <input typeof="email" name="email" id="validationCustom02" class="form-control name_and_email InputStyle" placeholder="What's your email, so I can respond to you?
                          " type="text" required>
                         <div class="invalid-feedback">
                             I need to know your email as well!
@@ -30,11 +31,11 @@
             </div>
             <div class="row">
                 <div class="form-group col-12">
-                        <textarea id="validationCustom03" class="form-control message InputStyle"
+                        <textarea name="message" id="validationCustom03" class="form-control message InputStyle"
                                   placeholder="Write your message here!"
                                   type="text" required></textarea>
                     <div class="invalid-feedback">
-                        I think you forgot to write your mesage!
+                        I think you forgot to write your message!
                     </div>
                 </div>
             </div>
