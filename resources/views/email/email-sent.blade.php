@@ -11,7 +11,7 @@
           'resources/views/scripts/nav-scroll.js'])
 </head>
 <body class=" mx-3 layout-body row justify-content-center">
-    <div class="    mt-4 row justify-content-center fit glass"  data-tilt data-tilt-glare data-tilt-max="2" data-tilt-max-glare="0.1" >
+    <div class="thanks mt-4 row justify-content-center fit glass"  data-tilt data-tilt-glare data-tilt-max="1" data-tilt-max-glare="0.1" >
         <div class="stack-div py-3 justify-content-center row ">
             <div class="row justify-content-center">
                 <h1 class="col-12 fit mt-2">Thank you!</h1>
