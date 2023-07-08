@@ -82,10 +82,17 @@ a {
 
 .glass{
     background: rgba(255, 255, 255, 0.02);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+@-moz-document url-prefix() {
+    .glass{
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+    }
 }
 
 svg {
@@ -117,7 +124,6 @@ p {
         display: none !important;
     }
 }
-/*stolen email form css start*/
 
 .InputStyle, .btn{
     border-radius: 25px;

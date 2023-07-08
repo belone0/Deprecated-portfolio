@@ -12,7 +12,7 @@
 </head>
 <body class="layout-body">
 <div class="d-flex justify-content-center row">
-    <nav id="main-nav" class="pt-2 w-75 border-0 col-9 navbar navbar-expand-md mt-3">
+    <nav id="main-nav" class=" pt-2 w-75 border-0 col-9 navbar navbar-expand-md mt-3">
         <div class="container">
             <ul class="navbar-nav me-auto ms-5 mt-1" alt=""><h3 class="fw-bolder">joao belone</h3></ul>
             <button class=" navbar-toggler" type="button" data-bs-toggle="collapse"
